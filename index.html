@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +16,7 @@
     <meta property="og:title" content="Earnix - Best Income Source">
     <meta property="og:description" content="Start earning today with trusted payments.">
     <!-- Updated og:image to the new logo URL with specified dimensions -->
-    <meta property="og:image" content="https://iili.io/qH7V7YG.md.jpg">
+    <meta property="og:image" content="https://iili.io/qHc77Cg.md.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Earnix App Logo">
@@ -27,7 +26,7 @@
     <meta name="twitter:site" content="@EarnixApp"> <!-- আপনার টুইটার হ্যান্ডেল দিন -->
     <meta name="twitter:title" content="Earnix - Best Income Source">
     <meta name="twitter:description" content="Start earning today with trusted payments.">
-    <meta name="twitter:image" content="https://iili.io/qH7V7YG.md.jpg">
+    <meta name="twitter:image" content="https://iili.io/qHc77Cg.md.jpg">
 
     <!-- Updated favicon and apple-touch-icon to the new logo URL and correct type -->
     <link rel="icon" type="image/jpeg" sizes="32x32" href="https://i.ibb.co/F1nGQ9S/20260213-152600.jpg">
@@ -355,14 +354,14 @@
         <aside id="sidebar" class="fixed inset-y-0 left-0 w-72 sidebar-gradient transform -translate-x-full md:translate-x-0 transition-transform duration-300 z-40 flex flex-col shadow-2xl">
             <div class="h-24 flex items-center px-8 border-b border-indigo-800/50">
                 <div class="w-10 h-10 rounded-xl overflow-hidden mr-3 border-2 border-white/20">
-                    <img id="sidebar-logo" src="https://iili.io/qH7V7YG.md.jpg" class="app-icon-img">
+                    <img id="sidebar-logo" src="https://iili.io/qHc77Cg.md.jpg" class="app-icon-img">
                 </div>
                 <h1 id="sidebar-title" class="text-white font-bold text-xl tracking-wide">Earnix</h1>
             </div>
 
             <div class="p-6">
                 <div class="flex items-center space-x-4 bg-white/5 p-4 rounded-2xl border border-white/10 cursor-pointer hover:bg-white/10 transition" onclick="app.nav('profile')">
-                    <img id="sidebar-avatar" src="https://iili.io/qH7V7YG.md.jpg" class="w-12 h-12 rounded-full border-2 border-indigo-400 object-cover">
+                    <img id="sidebar-avatar" src="https://iili.io/qHc77Cg.md.jpg" class="w-12 h-12 rounded-full border-2 border-indigo-400 object-cover">
                     <div class="overflow-hidden">
                         <p id="sidebar-name" class="text-white font-semibold truncate">Guest</p>
                         <p id="sidebar-status" class="text-xs text-gray-400">Not Logged In</p>
@@ -398,7 +397,7 @@
                 <button onclick="ui.toggleSidebar()" class="text-gray-600 text-xl"><i class="fas fa-bars"></i></button>
                 <h2 id="header-title" class="font-bold text-gray-800 text-lg">Dashboard</h2>
                 <div class="w-9 h-9 rounded-full overflow-hidden border border-gray-200" onclick="app.nav('profile')">
-                    <img id="header-avatar" src="https://iili.io/qH7V7YG.md.jpg" class="w-full h-full object-cover">
+                    <img id="header-avatar" src="https://iili.io/qHc77Cg.md.jpg" class="w-full h-full object-cover">
                 </div>
             </header>
 
@@ -448,7 +447,7 @@
             
             <div class="text-center mb-6">
                 <!-- Updated auth-modal-logo to the new logo URL -->
-                <img id="auth-modal-logo" src="https://iili.io/qH7V7YG.md.jpg" class="w-20 h-20 rounded-full mx-auto shadow-lg border-4 border-indigo-50 mb-4 object-cover">
+                <img id="auth-modal-logo" src="https://iili.io/qHc77Cg.md.jpg" class="w-20 h-20 rounded-full mx-auto shadow-lg border-4 border-indigo-50 mb-4 object-cover">
                 <h2 id="auth-title" class="text-2xl font-bold text-gray-800" data-i18n="login_title">Login</h2>
                 <div class="flex justify-center space-x-3 mt-2 text-sm text-gray-500">
                     <span onclick="window.appLang.set('en')" class="cursor-pointer hover:text-indigo-600 font-medium">English</span>
@@ -613,8 +612,7 @@
   messagingSenderId: "476816277996",
   appId: "1:476816277996:web:32bd3e0c21e467e24180c9",
 };
-  
-        // Initialize Firebase
+       // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
         const database = firebase.database();
@@ -918,7 +916,7 @@
                 //         let avatarHtml = '';
                 //         if (msg.sender === 'admin') { 
                 //             // Updated logoUrl for chat handler
-                //             avatarHtml = `<img src="${state.settings.app.logoUrl || 'https://iili.io/qH7V7YG.md.jpg'}" class="admin-avatar me-2" alt="Admin">`;
+                //             avatarHtml = `<img src="${state.settings.app.logoUrl || 'https://iili.io/qHc77Cg.md.jpg'}" class="admin-avatar me-2" alt="Admin">`;
                 //         }
                         
                 //         msgElement.innerHTML = `${avatarHtml}<div class="${msg.sender === 'user' ? 'user-content' : 'admin-content'}">${msg.text}</div>`;
@@ -1373,7 +1371,7 @@
                     // Update main app title and logo
                     const appName = state.settings.app.appName || "Earnix";
                     // Updated appLogo to the new logo URL
-                    const appLogo = state.settings.app.appLogoURL || "https://iili.io/qH7V7YG.md.jpg";
+                    const appLogo = state.settings.app.appLogoURL || "https://iili.io/qHc77Cg.md.jpg";
 
                     document.getElementById('app-page-title').textContent = appName + " - Make Money Online";
                     document.getElementById('sidebar-title').textContent = appName;
@@ -1464,7 +1462,7 @@
                 }
                 
                 // Updated profileImg to the new logo URL
-                const profileImg = state.settings.app.appLogoURL || "https://iili.io/qH7V7YG.md.jpg"; 
+                const profileImg = state.settings.app.appLogoURL || "https://iili.io/qHc77Cg.md.jpg"; 
 
                 ['sidebar', 'header'].forEach(p => {
                     if (document.getElementById(`${p}-name`)) document.getElementById(`${p}-name`).textContent = name;
@@ -2035,7 +2033,7 @@
                 if (state.isGuest) return ui.authBlock();
                 const d = state.data;
                 // Updated profileImg to the new logo URL
-                const profileImg = state.settings.app.appLogoURL || "https://iili.io/qH7V7YG.md.jpg";
+                const profileImg = state.settings.app.appLogoURL || "https://iili.io/qHc77Cg.md.jpg";
                 return `<div class="max-w-md mx-auto fade-in">
                     <div class="glass-panel p-8 flex flex-col items-center bg-white relative mb-6">
                         <button onclick="window.openProfileModal()" class="absolute top-4 right-4 text-gray-400 hover:text-indigo-600"><i class="fas fa-edit"></i></button>
